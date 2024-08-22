@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    color: rgb(206, 145, 65) ;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.logo{
+    background-image: url(photo.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+      width: 100px;
+        height: 70px;
+  }
+  .navbar{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: auto;
+  }
+  .navbar-menu a {
+    display: flex;
+    font-size: 19px;
+    color: rgba(243, 231, 215, 0.875);
+    font-family: "Raleway", sans-serif;
+    font-weight: 70;
+    padding: 15px 17px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .navbar-menu a:hover {
+    background-color: #d1c9b0;
+    color: #342908;
+    cursor: pointer;
+  }
+  
+  .icon{
+    background-image: url(coffee.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 115px;
+      width: 200px;
+        height: 100px;
+  }
+  h5{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: fixed;
+    bottom: 365px;
+  left: 160px;
+  }
+section{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: #ddc57d 2px solid;
+    width: 300px;
+    height: 350px;
+    color: aliceblue;
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+section::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  transition: width 1s , height 1s;
+  opacity: 0;
+  background-color: rgb(206, 145, 65);
+}
+section:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.p{
+    text-align: center;
+position: fixed;
+bottom: 220px;
+left: 60px;
+width: 270px;
+font-size: 20px;
+}
+button{
+    background-color:rgb(211, 168, 112) ;
+    width: 50px;
+    height: 20px;
+position: absolute;
+bottom: 20px;
+}
+/*end border */
+.icon1{
+    background-image: url(ice-coffee.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 115px;
+      width: 200px;
+        height: 100px;
+  }
+  .h{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    position: fixed;
+   top: 250px;
+   left: 610px;
+  }
+  .section1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border:  #ddc57d 2px solid;
+    width: 300px;
+    height: 350px;
+    color: aliceblue;
+    position: fixed;
+    left: 500px;
+    top: 180px;
+}
+
+.section1::after{
+  content: '';
+  position: absolute;
+  left: 0;
+ top: 0;
+  width: 0;
+  height: 0;
+  transition: width 1s , height 1s;
+  opacity: 0;
+  background-color: rgb(206, 145, 65);
+}
+.section1:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.p1{
+    text-align: center;
+position: fixed;
+width: 200px;
+bottom: 200px;
+left: 550px;
+font-size: 20px;
+}
+/*end border2*/
+.icon2{
+  background-image: url(croissant.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 115px;
+    width: 200px;
+      height: 100px;
+}
+.h1{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  position: fixed;
+ top: 250px;
+ left: 1060px;
+}
+.section2{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border: #ddc57d 2px solid;
+  width: 300px;
+  height: 350px;
+  color: aliceblue;
+  position: fixed;
+  left: 950px;
+  top: 180px;
+}
+.section2::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  transition: width 1s , height 1s;
+  opacity: 0;
+  background-color: rgb(206, 145, 65);
+}
+.section2:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+.p2{
+  text-align: center;
+position: fixed;
+width: 190px;
+bottom: 240px;
+left: 999px;
+font-size: 20px;
+}
